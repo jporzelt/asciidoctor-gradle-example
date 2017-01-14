@@ -11,12 +11,7 @@ buildscript {
 }
 
 apply plugin: 'com.github.ben-manes.versions'
-
 apply plugin: 'org.asciidoctor.convert'
-
-asciidoctorj {
-    version = '1.5.4'
-}
 
 
 asciidoctor {
