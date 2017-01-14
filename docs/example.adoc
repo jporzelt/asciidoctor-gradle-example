@@ -1,0 +1,44 @@
+:encoding: UTF-8
+:toc: left
+:toclevels: 4
+:numbered: 4
+:imagesdir: ./images
+:icons: font
+:source-highlighter: prettify
+
+
+// Some shorthands:
+:blank: pass:[ +]
+
+// Variables
+:gradle-logo: Gradle_logo_small.png
+
+
+= Asciidoctor Gradle Example
+
+toc::[]
+
+
+{nbsp} +
+[[sec1]]
+== Hello World
+
+Here we go icon:thumbs-up[] +
+http://asciidoc.org[AsciiDoc] +
+http://asciidoctor.org/docs/asciidoctor-gradle-plugin[asciidoctor-gradle-plugin] +
+
+{nbsp} +
+[[sec2]]
+== Source Code
+
+[source,java]
+----
+include::../example-java/src/main/java/PublicAPI.java[tags=apiMethod]
+----
+
+
+{nbsp} +
+[[sec2]]
+== Images
+
+image::{gradle-logo}["Gradle", width=200, align="left"]
